@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Adventures</title>
+    <link rel="stylesheet" type="text/css" href="css/scratch.css">
+   
+        <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  
+    
+</head>
+<body>
+    <h1 id ="top">My Family Trip to Hawaii</h1> 
+<a href="index.html"_blank>Abbey Bird's Resume</a>
+
+   <h2> Favorite Places in Hawaii</h2>
+   <ul> 
+        <li>  Dole Plantation   </li>
+        <li>  Pearl Harbor       </li>
+        <li class="emphasizedText">  Ko Olina Beach </li>
+   </ul>
+    <h2>   Places I Want to Visit in Hawaii    </h2>
+    <ol>    
+         <li class="emphasizedText">  Volcano National Park    </li>
+         <li>  Hunama Bay   </li>
+         <li>  Nepali Coast            </li>
+        <!--this is a comment-->
+    
+        
+    </ol>
+
+    <br> <br> <iframe width="650" height="543" src="https://www.youtube.com/embed/MFgSnbzwC8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <br> 
+    <p> Watch the video above to learn more about Hawaii!! </p>
+
+    <img src="/Images /Hawaii.jpeg" alt=" My family in Hawaii " width="650">
+    <p> We Took Family Pictures  </p>
+
+   
+        <div id="tableauViz"></div>
+    
+        <script>
+            
+            function initViz() {
+                var containerDiv = document.getElementById("tableauViz");
+                var url = "https://public.tableau.com/views/4ParadisesInTheSea/Geography?:language=en-US&:display_count=n&:origin=viz_share_link";
+                var options = {
+                    hideTabs: true,
+                    hideToolbar: true
+                };
+    
+                var viz = new tableau.Viz(containerDiv, url, options);
+                
+            }
+    
+            document.addEventListener("DOMContentLoaded", initViz);
+          
+        </script>
+\
+    
+    
+
+<br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="#top ">Top of Page</a>
+</body>
+</html>
